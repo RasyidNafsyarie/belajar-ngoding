@@ -1,2 +1,2 @@
 # belajar-ngoding
-Learn code in discord community
+Learn code in discord server community

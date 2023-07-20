@@ -16,16 +16,19 @@
 
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+//Ketika value peran sesuai dengan nama perannya program akan dijalankan sesuai nama peran masing-masing
+//jika value peran kosong maka akan menjalankan pesan "tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada"
+//jika value peran tidak sesuai dengan value yang ada di statement if maka akan kondisi else akan dijalankan
 
 
 let nama = "proxitia", peran = "";
 
 //code disini gunakan console.log untuk outputnya
-if (peran == "Ksatria") {
+if (peran === "Ksatria") {
     console.log(` halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
-} else if(peran == "Tabib") {
+} else if(peran === "Tabib") {
     console.log(` halo Tabib ${nama}, kamu akan membantu temanmu yang terluka`);
-} else if (peran == "Penyihir") {
+} else if (peran === "Penyihir") {
     console.log(` halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
 } else if (peran === "") {
     console.log(' tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada');
